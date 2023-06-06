@@ -24,7 +24,7 @@ clf = svm.SVC(C=1.0)
 clf.fit(X_train, y_train)
 
 # %%
-clf.score(X_test, y_test)
+print(clf.score(X_test, y_test))
 #clf.predict(X_test)
 #y_test
 
